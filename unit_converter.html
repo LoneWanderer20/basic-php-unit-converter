@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Unit Converter</title>
+<link href="/practicePHP/practicePHP/unit_converter_project/unit_converter.css" rel="stylesheet" type="text/css">
+<link href="/practicePHP/practicePHP/unit_converter_project/resetCSS.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+       
+        <h2 class="projectTitle">Unit Converter</h2>
+        
+    	<div class="converterCont">
+    	 
+            <div class="fromToCont">
+
+                <h3 class="fromTo">FROM</h3>
+        
+                <select class="unitSelect" id="fromSelect"> 
+               
+                    <optgroup label="Length">
+                        <option value="lValue1">Metres (m)</option>
+                        <option value="lValue2">Kilometres (km)</option>
+        	            <option value="lValue3">Centimetres (cm)</option>
+        	            <option value="lValue4">Miles (mi)</option>
+        	            <option value="lValue5">Yards (yd)</option>
+        	            <option value="lValue6">Feet (ft)</option>
+        	            <option value="lValue7">Inches (in)</option>
+				    </optgroup>
+     
+                    <optgroup label="Volume">
+        	            <option value="vValue1">Litres (l)</option>
+        	            <option value="vValue2">Millilitres (ml)</option>
+        	            <option value="vValue3">Gallons (gal)</option>
+        	            <option value="vValue4">Quarts (qt)</option>
+        	            <option value="vValue5">Pints (pt)</option>
+				    </optgroup>
+           
+                    <optgroup label="Weight">
+        	            <option value="wValue1">Kilograms (kg)</option>
+					    <option value="wValue2">Grams (g)</option>
+        	            <option value="wValue3">Stones (st)</option>
+        	            <option value="wValue4">Pounds (lbs)</option>
+        	            <option value="wValue5">Ounces (oz)</option>
+				    </optgroup>
+     
+                    <optgroup label="Temperature">
+        	            <option value="tValue1">Kelvin (K)</option>
+        	            <option value="tValue2">Celsius (C)</option>
+        	            <option value="tValue3">Fahrenheit (F)</option>
+				    </optgroup>
+           
+                    <optgroup label="Pressure">
+        	            <option value="pValue1">Pascals (Pa)</option>
+        	            <option value="pValue2">Kilopascals (kPa)</option>
+        	            <option value="pValue3">Bar (bar)</option>
+        	            <option value="pValue4">Psi (psi)</option>
+        	            <option value="pValue5">Atmospheres (atm)</option>
+				    </optgroup>
+          
+                    <optgroup label="Energy">
+        	            <option value="eValue1">Joules (J)</option>
+        	            <option value="eValue2">Kilojoules (KJ)</option>
+        	            <option value="eValue3">Kilowatt-hour (kW*h)</option>
+        	            <option value="eValue4">Watt-hour (W*h)</option>
+        	            <option value="eValue5">Calories (cal)</option>
+				    </optgroup>
+           
+                </select>
+            
+                <input class="unitInput" id="unitInput" type="text" />
+    
+	        </div>
+    
+            <div class="fromToCont">
+       
+                <h3 class="fromTo">TO</h3>
+        
+                <select class="unitSelect" id="toSelect"></select>
+            
+                <input class="unitInput" id="unitOutput" type="text" />
+    
+	        </div>
+	
+	    </div>
+     	
+<script type="text/javascript" src="unit_converter.js"></script>
+</body>
+</html>

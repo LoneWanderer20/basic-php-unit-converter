@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+.converterCont {
+	width: 600px;
+	height: 165px;
+	border: 1px solid #111;
+	text-align: center;
+	margin: 20px auto;
+}
+.fromToCont {
+	width: 298px;
+	height: 155px;
+	padding-top: 10px;
+	float:left;
+	border: 1px solid #111;
+}
+.fromTo {
+	width: auto;
+	height: auto;
+	margin: 20px;
+	text-align: center;
+}
+.unitInput, .unitSelect {
+	width: 200px;
+	height: auto;
+    margin: 0px 49px 0px 49px;
+}
+.unitInput {
+	margin-top: 15px;
+}
